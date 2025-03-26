@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_795d8e4327b3f417e2314ad943611cd6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_795d8e4327b3f417e2314ad943611cd6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_795d8e4327b3f417e2314ad943611cd6 = L.map(
+                "map_795d8e4327b3f417e2314ad943611cd6",
+                {
+                    center: [64.9631, -19.0208],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_7e41436d200cc77f67be8fc008307109 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_7e41436d200cc77f67be8fc008307109.addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var marker_ed2198c20e55b5383e6d2e302abb4ab2 = L.marker(
+                [65.6839, -18.1105],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_e237edd9b14a97cf73ef3c11dd0aa821 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b389e74b05c1d23a0a03bbcb97e16a35 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_2a851631a43a762afa9164b4cb81e0d0 = $(`<div id="html_2a851631a43a762afa9164b4cb81e0d0" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Akureyri</b><br>         <i>Years:</i> 1995-2025<br>         <i>Solar Avg:</i> 90 hrs/month<br>         <i>April-August:</i> 160 hrs/month<br>         <i>September-March:</i> 40 hrs/month              </div>     </div>`)[0];
+                popup_b389e74b05c1d23a0a03bbcb97e16a35.setContent(html_2a851631a43a762afa9164b4cb81e0d0);
+            
+        
+
+        marker_ed2198c20e55b5383e6d2e302abb4ab2.bindPopup(popup_b389e74b05c1d23a0a03bbcb97e16a35)
+        ;
+
+        
+    
+    
+                marker_ed2198c20e55b5383e6d2e302abb4ab2.setIcon(icon_e237edd9b14a97cf73ef3c11dd0aa821);
+            
+    
+            var marker_b0f3ed324ba17192583242f676755362 = L.marker(
+                [65.2944963410417, -13.705741037561193],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_1bd8937a9606ae54f79198ca9440ec2a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_6b4b1616992641163e5393517be4d29e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_987adb643c4b6ef067c434fed3246183 = $(`<div id="html_987adb643c4b6ef067c434fed3246183" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Skalanes</b><br>         This is homebase baby       </div>     </div>`)[0];
+                popup_6b4b1616992641163e5393517be4d29e.setContent(html_987adb643c4b6ef067c434fed3246183);
+            
+        
+
+        marker_b0f3ed324ba17192583242f676755362.bindPopup(popup_6b4b1616992641163e5393517be4d29e)
+        ;
+
+        
+    
+    
+                marker_b0f3ed324ba17192583242f676755362.setIcon(icon_1bd8937a9606ae54f79198ca9440ec2a);
+            
+    
+            var marker_419f805e36ebcb68bb526275552321ab = L.marker(
+                [65.5919, -17.0588],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_6ac5e36592fb2b1e8bcf3a65e4381526 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8303bb871f3d94746867fd4d45b4a2fc = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c829f4f29cfbc3123caca5a9c565dac2 = $(`<div id="html_c829f4f29cfbc3123caca5a9c565dac2" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Haganes</b><br>         <i>Years:</i> 1989-2019<br>         <i>Solar Avg:</i> 99 hrs/month<br>         <i>April-August:</i> 169 hrs/month<br>         <i>September-March:</i> 49 hrs/month              </div>     </div>`)[0];
+                popup_8303bb871f3d94746867fd4d45b4a2fc.setContent(html_c829f4f29cfbc3123caca5a9c565dac2);
+            
+        
+
+        marker_419f805e36ebcb68bb526275552321ab.bindPopup(popup_8303bb871f3d94746867fd4d45b4a2fc)
+        ;
+
+        
+    
+    
+                marker_419f805e36ebcb68bb526275552321ab.setIcon(icon_6ac5e36592fb2b1e8bcf3a65e4381526);
+            
+    
+            var marker_343892e5f8659ca81610639d7c7caef4 = L.marker(
+                [65.2944963410417, -13.705741037561193],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_54348d9e8d4b43b2fdc9cb3d2f664192 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_baa3960ab201234b7eee9b2e4e67d36d = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_8224d07079091881cd6dcef9ac84d995 = $(`<div id="html_8224d07079091881cd6dcef9ac84d995" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Skalanes</b><br>         This is homebase baby       </div>     </div>`)[0];
+                popup_baa3960ab201234b7eee9b2e4e67d36d.setContent(html_8224d07079091881cd6dcef9ac84d995);
+            
+        
+
+        marker_343892e5f8659ca81610639d7c7caef4.bindPopup(popup_baa3960ab201234b7eee9b2e4e67d36d)
+        ;
+
+        
+    
+    
+                marker_343892e5f8659ca81610639d7c7caef4.setIcon(icon_54348d9e8d4b43b2fdc9cb3d2f664192);
+            
+    
+            var marker_def1ff841f8b46a910f6e12172c90713 = L.marker(
+                [65.09508, -14.74828],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_76b79e91cd0ec695d59bfb10f1fc1b84 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a90785e6a97fa2bb641a7a3f8a7a23b0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_47a1ab9770407f67aa8ad8eadef5aea7 = $(`<div id="html_47a1ab9770407f67aa8ad8eadef5aea7" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Hallormsstadur</b><br>         <i>Years:</i> 1960-1990<br>         <i>Solar Avg:</i> 91 hrs/month<br>         <i>April-August:</i> 166 hrs/month<br>         <i>September-March:</i> 37 hrs/month              </div>     </div>`)[0];
+                popup_a90785e6a97fa2bb641a7a3f8a7a23b0.setContent(html_47a1ab9770407f67aa8ad8eadef5aea7);
+            
+        
+
+        marker_def1ff841f8b46a910f6e12172c90713.bindPopup(popup_a90785e6a97fa2bb641a7a3f8a7a23b0)
+        ;
+
+        
+    
+    
+                marker_def1ff841f8b46a910f6e12172c90713.setIcon(icon_76b79e91cd0ec695d59bfb10f1fc1b84);
+            
+    
+            var marker_1c0dae3380dc21c7006f31fa32fd7582 = L.marker(
+                [65.2944963410417, -13.705741037561193],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_669e26dbedc1605386530549b43129d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_21a0ff3acec0d5f1d3ba9528a367fa8e = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_5606a81380f424606c6e6b0a8e87e4b0 = $(`<div id="html_5606a81380f424606c6e6b0a8e87e4b0" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Skalanes</b><br>         This is homebase baby       </div>     </div>`)[0];
+                popup_21a0ff3acec0d5f1d3ba9528a367fa8e.setContent(html_5606a81380f424606c6e6b0a8e87e4b0);
+            
+        
+
+        marker_1c0dae3380dc21c7006f31fa32fd7582.bindPopup(popup_21a0ff3acec0d5f1d3ba9528a367fa8e)
+        ;
+
+        
+    
+    
+                marker_1c0dae3380dc21c7006f31fa32fd7582.setIcon(icon_669e26dbedc1605386530549b43129d3);
+            
+    
+            var marker_e64d85b240e54fcfbb7be89542e71d0b = L.marker(
+                [64.26197, -15.20342],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_988c19eb24cbd414640caacce7345d4f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_92a068b7cf9a8224562450bb742a1abc = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_936f6195542829823d2278ee5452cb33 = $(`<div id="html_936f6195542829823d2278ee5452cb33" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Hofn I Hornafirdi</b><br>         <i>Years:</i> 1965-1984<br>         <i>Solar Avg:</i> 100 hrs/month<br>         <i>April-August:</i> 149 hrs/month<br>         <i>September-March:</i> 65 hrs/month              </div>     </div>`)[0];
+                popup_92a068b7cf9a8224562450bb742a1abc.setContent(html_936f6195542829823d2278ee5452cb33);
+            
+        
+
+        marker_e64d85b240e54fcfbb7be89542e71d0b.bindPopup(popup_92a068b7cf9a8224562450bb742a1abc)
+        ;
+
+        
+    
+    
+                marker_e64d85b240e54fcfbb7be89542e71d0b.setIcon(icon_988c19eb24cbd414640caacce7345d4f);
+            
+    
+            var marker_21bae247c7b6f5c234a7d35ed2d662ce = L.marker(
+                [65.2944963410417, -13.705741037561193],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_3522975c9d18b20996a15cfe9de93fc0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_991eeab841ff0d7a79f35ccbc0a0f139 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_88c703f44878c5fe9c34373b3a69519e = $(`<div id="html_88c703f44878c5fe9c34373b3a69519e" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Skalanes</b><br>         This is homebase baby       </div>     </div>`)[0];
+                popup_991eeab841ff0d7a79f35ccbc0a0f139.setContent(html_88c703f44878c5fe9c34373b3a69519e);
+            
+        
+
+        marker_21bae247c7b6f5c234a7d35ed2d662ce.bindPopup(popup_991eeab841ff0d7a79f35ccbc0a0f139)
+        ;
+
+        
+    
+    
+                marker_21bae247c7b6f5c234a7d35ed2d662ce.setIcon(icon_3522975c9d18b20996a15cfe9de93fc0);
+            
+    
+            var marker_88efb841adadb5a6fa1193237b82f294 = L.marker(
+                [65.73318, -19.11243],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_075fa615b5ffa3baf465d1c29faf2e09 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_62406ed8bc47b4be99a97ac2657343d3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_593f146ecb3d84d71aa6c4e76474ae71 = $(`<div id="html_593f146ecb3d84d71aa6c4e76474ae71" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Holar I Hornafirdi</b><br>         <i>Years:</i> 1981-2011<br>         <i>Solar Avg:</i> 100 hrs/month<br>         <i>April-August:</i> 148 hrs/month<br>         <i>September-March:</i> 65 hrs/month              </div>     </div>`)[0];
+                popup_62406ed8bc47b4be99a97ac2657343d3.setContent(html_593f146ecb3d84d71aa6c4e76474ae71);
+            
+        
+
+        marker_88efb841adadb5a6fa1193237b82f294.bindPopup(popup_62406ed8bc47b4be99a97ac2657343d3)
+        ;
+
+        
+    
+    
+                marker_88efb841adadb5a6fa1193237b82f294.setIcon(icon_075fa615b5ffa3baf465d1c29faf2e09);
+            
+    
+            var marker_cc7cf0e8d5247564f190ca7e234f009a = L.marker(
+                [65.2944963410417, -13.705741037561193],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_acf8735701878c58870491df50d8a3c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_782b261cb25c718fc3c54ecca373b57a = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_fcf8764646cd44e3ca90ed4b12f5c6c8 = $(`<div id="html_fcf8764646cd44e3ca90ed4b12f5c6c8" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Skalanes</b><br>         This is homebase baby       </div>     </div>`)[0];
+                popup_782b261cb25c718fc3c54ecca373b57a.setContent(html_fcf8764646cd44e3ca90ed4b12f5c6c8);
+            
+        
+
+        marker_cc7cf0e8d5247564f190ca7e234f009a.bindPopup(popup_782b261cb25c718fc3c54ecca373b57a)
+        ;
+
+        
+    
+    
+                marker_cc7cf0e8d5247564f190ca7e234f009a.setIcon(icon_acf8735701878c58870491df50d8a3c1);
+            
+    
+            var marker_67d685da0b30c35273604fd008d89e96 = L.marker(
+                [66.45751, -15.93438],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_7aff11c7ad9627d12011ef171367e1e7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5dcd6532bf0b8fe94fdd85e910f05ecc = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_485d40aa97159dd947b9d527778664ed = $(`<div id="html_485d40aa97159dd947b9d527778664ed" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Hoskuldarnes</b><br>         <i>Years:</i> 1958-1988<br>         <i>Solar Avg:</i> 82 hrs/month<br>         <i>April-August:</i> 142 hrs/month<br>         <i>September-March:</i> 38 hrs/month              </div>     </div>`)[0];
+                popup_5dcd6532bf0b8fe94fdd85e910f05ecc.setContent(html_485d40aa97159dd947b9d527778664ed);
+            
+        
+
+        marker_67d685da0b30c35273604fd008d89e96.bindPopup(popup_5dcd6532bf0b8fe94fdd85e910f05ecc)
+        ;
+
+        
+    
+    
+                marker_67d685da0b30c35273604fd008d89e96.setIcon(icon_7aff11c7ad9627d12011ef171367e1e7);
+            
+    
+            var marker_e9d34b3444158e227fb30d1f069947de = L.marker(
+                [65.2944963410417, -13.705741037561193],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_cf900f93de6dda371e82f16057fbb472 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ced9d1f6691bce61eac5f0465b627330 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_cbe4fc49322e6d1807d8880dc854d1dc = $(`<div id="html_cbe4fc49322e6d1807d8880dc854d1dc" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Skalanes</b><br>         This is homebase baby       </div>     </div>`)[0];
+                popup_ced9d1f6691bce61eac5f0465b627330.setContent(html_cbe4fc49322e6d1807d8880dc854d1dc);
+            
+        
+
+        marker_e9d34b3444158e227fb30d1f069947de.bindPopup(popup_ced9d1f6691bce61eac5f0465b627330)
+        ;
+
+        
+    
+    
+                marker_e9d34b3444158e227fb30d1f069947de.setIcon(icon_cf900f93de6dda371e82f16057fbb472);
+            
+    
+            var marker_60d935dc96c913009a68e82a0aa41002 = L.marker(
+                [64.8668, -19.5622],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_2ab347c67d7f9dd3baf9acf061947202 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2571ad96ec6dfbe16b43b51f0ac9db63 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c5e529adf3824d3021887f4f02dc27c6 = $(`<div id="html_c5e529adf3824d3021887f4f02dc27c6" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Hveravellir</b><br>         <i>Years:</i> 1974-2004<br>         <i>Solar Avg:</i> 95 hrs/month<br>         <i>April-August:</i> 162 hrs/month<br>         <i>September-March:</i> 48 hrs/month              </div>     </div>`)[0];
+                popup_2571ad96ec6dfbe16b43b51f0ac9db63.setContent(html_c5e529adf3824d3021887f4f02dc27c6);
+            
+        
+
+        marker_60d935dc96c913009a68e82a0aa41002.bindPopup(popup_2571ad96ec6dfbe16b43b51f0ac9db63)
+        ;
+
+        
+    
+    
+                marker_60d935dc96c913009a68e82a0aa41002.setIcon(icon_2ab347c67d7f9dd3baf9acf061947202);
+            
+    
+            var marker_09e0d40808e7672da9808cbce84ef15c = L.marker(
+                [65.2944963410417, -13.705741037561193],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_ecf106f87bdbc322805c12ce7ed78c31 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2968b011b16a657679269f49a438a4c8 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_3f8cb6afe76b8efa3f82150c4ecf9d3c = $(`<div id="html_3f8cb6afe76b8efa3f82150c4ecf9d3c" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Skalanes</b><br>         This is homebase baby       </div>     </div>`)[0];
+                popup_2968b011b16a657679269f49a438a4c8.setContent(html_3f8cb6afe76b8efa3f82150c4ecf9d3c);
+            
+        
+
+        marker_09e0d40808e7672da9808cbce84ef15c.bindPopup(popup_2968b011b16a657679269f49a438a4c8)
+        ;
+
+        
+    
+    
+                marker_09e0d40808e7672da9808cbce84ef15c.setIcon(icon_ecf106f87bdbc322805c12ce7ed78c31);
+            
+    
+            var marker_a9dacdbc0beabecf0739844637071010 = L.marker(
+                [63.987, -20.04967],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_4dd3bac56aa8f41a8386edc9917c3981 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_57b8b220f824d048006d2e8c05d0a7d5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_25dd19480c4e5fa6ca49799a9815a091 = $(`<div id="html_25dd19480c4e5fa6ca49799a9815a091" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Leirubakki</b><br>         <i>Years:</i> 1984-1991<br>         <i>Solar Avg:</i> 101 hrs/month<br>         <i>April-August:</i> 154 hrs/month<br>         <i>September-March:</i> 61 hrs/month              </div>     </div>`)[0];
+                popup_57b8b220f824d048006d2e8c05d0a7d5.setContent(html_25dd19480c4e5fa6ca49799a9815a091);
+            
+        
+
+        marker_a9dacdbc0beabecf0739844637071010.bindPopup(popup_57b8b220f824d048006d2e8c05d0a7d5)
+        ;
+
+        
+    
+    
+                marker_a9dacdbc0beabecf0739844637071010.setIcon(icon_4dd3bac56aa8f41a8386edc9917c3981);
+            
+    
+            var marker_77ad8a53101ead17c202743773234062 = L.marker(
+                [65.2944963410417, -13.705741037561193],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_8833be6ceb57bcf5e25c10ab678b819b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_35a15c401beb5fe3e637393db68802aa = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_c2b7c211a845dead4bd2ade4c2d783b3 = $(`<div id="html_c2b7c211a845dead4bd2ade4c2d783b3" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Skalanes</b><br>         This is homebase baby       </div>     </div>`)[0];
+                popup_35a15c401beb5fe3e637393db68802aa.setContent(html_c2b7c211a845dead4bd2ade4c2d783b3);
+            
+        
+
+        marker_77ad8a53101ead17c202743773234062.bindPopup(popup_35a15c401beb5fe3e637393db68802aa)
+        ;
+
+        
+    
+    
+                marker_77ad8a53101ead17c202743773234062.setIcon(icon_8833be6ceb57bcf5e25c10ab678b819b);
+            
+    
+            var marker_9cd8f109d16552b792d6808cc81d964c = L.marker(
+                [65.44675, -22.20516],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_485d8e03d81e970f0c6ca0f2a4d5ed3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_05bd7e675734ce9a88373dc3398d29c9 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_e4374b2b125ab1ae1e30a76df6bb7ccd = $(`<div id="html_e4374b2b125ab1ae1e30a76df6bb7ccd" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Reykholar</b><br>         <i>Years:</i> 1961-1989<br>         <i>Solar Avg:</i> 93 hrs/month<br>         <i>April-August:</i> 157 hrs/month<br>         <i>September-March:</i> 46 hrs/month              </div>     </div>`)[0];
+                popup_05bd7e675734ce9a88373dc3398d29c9.setContent(html_e4374b2b125ab1ae1e30a76df6bb7ccd);
+            
+        
+
+        marker_9cd8f109d16552b792d6808cc81d964c.bindPopup(popup_05bd7e675734ce9a88373dc3398d29c9)
+        ;
+
+        
+    
+    
+                marker_9cd8f109d16552b792d6808cc81d964c.setIcon(icon_485d8e03d81e970f0c6ca0f2a4d5ed3d);
+            
+    
+            var marker_375b23f0de162d9956ff1e952691ad77 = L.marker(
+                [65.2944963410417, -13.705741037561193],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_e552726afd6d9a0fe43a5c3ccaf7265c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b89e82f05b26c1f4472cd19d7c0a333f = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b8a984d2bad6742e6a7c968153df9f3d = $(`<div id="html_b8a984d2bad6742e6a7c968153df9f3d" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Skalanes</b><br>         This is homebase baby       </div>     </div>`)[0];
+                popup_b89e82f05b26c1f4472cd19d7c0a333f.setContent(html_b8a984d2bad6742e6a7c968153df9f3d);
+            
+        
+
+        marker_375b23f0de162d9956ff1e952691ad77.bindPopup(popup_b89e82f05b26c1f4472cd19d7c0a333f)
+        ;
+
+        
+    
+    
+                marker_375b23f0de162d9956ff1e952691ad77.setIcon(icon_e552726afd6d9a0fe43a5c3ccaf7265c);
+            
+    
+            var marker_8f1cf694b9bc3edb231ed1e4b65f125f = L.marker(
+                [65.64415, -19.0686],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_4f1d70e215e4b92d15167b1a4af27ec7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f1650e87618773ba38733fc68b95d199 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_85793ee4ed0d01fdef0dea37438673bc = $(`<div id="html_85793ee4ed0d01fdef0dea37438673bc" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Reykir I Olfusi</b><br>         <i>Years:</i> 1972-2000<br>         <i>Solar Avg:</i> 95 hrs/month<br>         <i>April-August:</i> 144 hrs/month<br>         <i>September-March:</i> 60 hrs/month              </div>     </div>`)[0];
+                popup_f1650e87618773ba38733fc68b95d199.setContent(html_85793ee4ed0d01fdef0dea37438673bc);
+            
+        
+
+        marker_8f1cf694b9bc3edb231ed1e4b65f125f.bindPopup(popup_f1650e87618773ba38733fc68b95d199)
+        ;
+
+        
+    
+    
+                marker_8f1cf694b9bc3edb231ed1e4b65f125f.setIcon(icon_4f1d70e215e4b92d15167b1a4af27ec7);
+            
+    
+            var marker_a67db7262859f6171f0b2e4dd57328aa = L.marker(
+                [65.2944963410417, -13.705741037561193],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_504ed983b130870d4927b1ba85e431c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_59ba652487590c8d8cb1bcbf51bedec5 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b962572ed23476d27514056e6de85d8d = $(`<div id="html_b962572ed23476d27514056e6de85d8d" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Skalanes</b><br>         This is homebase baby       </div>     </div>`)[0];
+                popup_59ba652487590c8d8cb1bcbf51bedec5.setContent(html_b962572ed23476d27514056e6de85d8d);
+            
+        
+
+        marker_a67db7262859f6171f0b2e4dd57328aa.bindPopup(popup_59ba652487590c8d8cb1bcbf51bedec5)
+        ;
+
+        
+    
+    
+                marker_a67db7262859f6171f0b2e4dd57328aa.setIcon(icon_504ed983b130870d4927b1ba85e431c5);
+            
+    
+            var marker_de9f61eff83eef78f44ae0ca24bf6d17 = L.marker(
+                [63.7354, -20.1091],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_e7d586658b0ece04ebe22c765d1dba09 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b39db36bafb3a9c1907b16856ee4dad0 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_b7f0b02b473c56bf84348dcdb3edcf4a = $(`<div id="html_b7f0b02b473c56bf84348dcdb3edcf4a" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Samsstadir</b><br>         <i>Years:</i> 1989-2019<br>         <i>Solar Avg:</i> 99 hrs/month<br>         <i>April-August:</i> 155 hrs/month<br>         <i>September-March:</i> 57 hrs/month              </div>     </div>`)[0];
+                popup_b39db36bafb3a9c1907b16856ee4dad0.setContent(html_b7f0b02b473c56bf84348dcdb3edcf4a);
+            
+        
+
+        marker_de9f61eff83eef78f44ae0ca24bf6d17.bindPopup(popup_b39db36bafb3a9c1907b16856ee4dad0)
+        ;
+
+        
+    
+    
+                marker_de9f61eff83eef78f44ae0ca24bf6d17.setIcon(icon_e7d586658b0ece04ebe22c765d1dba09);
+            
+    
+            var marker_54ea2b64fe832471c4fe1d301bbec87f = L.marker(
+                [65.2944963410417, -13.705741037561193],
+                {
+}
+            ).addTo(map_795d8e4327b3f417e2314ad943611cd6);
+        
+    
+            var icon_420b64296c4a451264c961df6f146913 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0aedee64d6667971f27bce39bdaec6c3 = L.popup({
+  "maxWidth": 200,
+});
+
+        
+            
+                var html_4886823cb2d914d0a8db7b54458068c8 = $(`<div id="html_4886823cb2d914d0a8db7b54458068c8" style="width: 100.0%; height: 100.0%;">     <div style="width: 200px; min-width: 175px;">         <b>Skalanes</b><br>         This is homebase baby       </div>     </div>`)[0];
+                popup_0aedee64d6667971f27bce39bdaec6c3.setContent(html_4886823cb2d914d0a8db7b54458068c8);
+            
+        
+
+        marker_54ea2b64fe832471c4fe1d301bbec87f.bindPopup(popup_0aedee64d6667971f27bce39bdaec6c3)
+        ;
+
+        
+    
+    
+                marker_54ea2b64fe832471c4fe1d301bbec87f.setIcon(icon_420b64296c4a451264c961df6f146913);
+            
+</script>
+</html>
