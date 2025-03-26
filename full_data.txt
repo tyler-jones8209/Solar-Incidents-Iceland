@@ -1,0 +1,109 @@
+Showing stats for: AKUREYRI STATION
+----------TOTAL STATS----------
+Average sunshine from 1949 to 2025: 87 hours per month.
+April to August average: 154 hours/month
+September to March average: 39 hours/month
+----------30 YEAR STATS----------
+Average sunshine from 1995 to 2025: 90 hours per month.
+April to August average: 160 hours/month
+September to March average: 40 hours/month
+
+Showing stats for: HAGANES STATION
+----------TOTAL STATS----------
+Average sunshine from 1980 to 2019: 99 hours per month.
+April to August average: 169 hours/month
+September to March average: 49 hours/month
+----------30 YEAR STATS----------
+Average sunshine from 1989 to 2019: 99 hours per month.
+April to August average: 169 hours/month
+September to March average: 49 hours/month
+
+Showing stats for: HALLORMSSTADUR STATION
+----------TOTAL STATS----------
+Average sunshine from 1953 to 1990: 90 hours per month.
+April to August average: 164 hours/month
+September to March average: 37 hours/month
+----------30 YEAR STATS----------
+Average sunshine from 1960 to 1990: 91 hours per month.
+April to August average: 166 hours/month
+September to March average: 37 hours/month
+
+Showing stats for: HOFN STATION
+----------TOTAL STATS----------
+Average sunshine from 1965 to 1984: 100 hours per month.
+April to August average: 149 hours/month
+September to March average: 65 hours/month
+----------30 YEAR STATS----------
+Average sunshine from 1965 to 1984: 100 hours per month.
+April to August average: 149 hours/month
+September to March average: 65 hours/month
+
+Showing stats for: HOLAR STATION
+----------TOTAL STATS----------
+Average sunshine from 1949 to 2011: 100 hours per month.
+April to August average: 148 hours/month
+September to March average: 65 hours/month
+----------30 YEAR STATS----------
+Average sunshine from 1981 to 2011: 100 hours per month.
+April to August average: 148 hours/month
+September to March average: 65 hours/month
+
+Showing stats for: HOSKULDARNES STATION
+----------TOTAL STATS----------
+Average sunshine from 1957 to 1988: 82 hours per month.
+April to August average: 143 hours/month
+September to March average: 38 hours/month
+----------30 YEAR STATS----------
+Average sunshine from 1958 to 1988: 82 hours per month.
+April to August average: 142 hours/month
+September to March average: 38 hours/month
+
+Showing stats for: HVERAVELLIR STATION
+----------TOTAL STATS----------
+Average sunshine from 1965 to 2004: 96 hours per month.
+April to August average: 163 hours/month
+September to March average: 49 hours/month
+----------30 YEAR STATS----------
+Average sunshine from 1974 to 2004: 95 hours per month.
+April to August average: 162 hours/month
+September to March average: 48 hours/month
+
+Showing stats for: LEIRUBAKKI STATION
+----------TOTAL STATS----------
+Average sunshine from 1984 to 1991: 101 hours per month.
+April to August average: 154 hours/month
+September to March average: 61 hours/month
+----------30 YEAR STATS----------
+Average sunshine from 1984 to 1991: 101 hours per month.
+April to August average: 154 hours/month
+September to March average: 61 hours/month
+
+Showing stats for: REYKHOLAR STATION
+----------TOTAL STATS----------
+Average sunshine from 1961 to 1989: 93 hours per month.
+April to August average: 157 hours/month
+September to March average: 46 hours/month
+----------30 YEAR STATS----------
+Average sunshine from 1961 to 1989: 93 hours per month.
+April to August average: 157 hours/month
+September to March average: 46 hours/month
+
+Showing stats for: REYKIR STATION
+----------TOTAL STATS----------
+Average sunshine from 1972 to 2000: 95 hours per month.
+April to August average: 144 hours/month
+September to March average: 60 hours/month
+----------30 YEAR STATS----------
+Average sunshine from 1972 to 2000: 95 hours per month.
+April to August average: 144 hours/month
+September to March average: 60 hours/month
+
+Showing stats for: SAMSSTADIR STATION
+----------TOTAL STATS----------
+Average sunshine from 1962 to 2019: 100 hours per month.
+April to August average: 155 hours/month
+September to March average: 61 hours/month
+----------30 YEAR STATS----------
+Average sunshine from 1989 to 2019: 99 hours per month.
+April to August average: 155 hours/month
+September to March average: 57 hours/month
